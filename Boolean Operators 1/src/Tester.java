@@ -2,23 +2,34 @@ public class Tester {
     public static void main(String[] args) {
 
         int a = 15;
-        int b ;
+        int b = 0;
 
         a+=5;
         a-=4;
 
-        b = a;
+         b = a;
         ++b;
 
         if(b%2 == 1 ){
             System.out.println("odd " + b);
         }
-        b = b + 1;
-        System.out.println(b);
+
 
         if(b%3 == 0){
-            System.out.println("it a multiply" + b);
+            System.out.println(b);
+
+
         }
+
+        int x = b *(b+1);
+
+        System.out.println(b%3);
+
+        if(x%3 == 0){
+            System.out.println("at the end it's 3 multiplier");
+
+        }
+
 
 
 
@@ -26,8 +37,6 @@ public class Tester {
 
         }
     }
-
-
 
 /*    Define a testing class where you:
 
